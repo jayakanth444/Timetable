@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: rgba(160, 160, 160, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    background: rgba(128, 128, 128, 0.733);
+    width: 990px;
+    height: 40px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 26px 26px 36px #8080809a, -26px -26px 36px #94949480;
+}
+
+.container {
+    width: 990px;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 110px 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+.container>div {
+    box-shadow: 26px 26px 36px #8080809a, -26px -26px 36px #94949480;
+}
+
+.head {
+    height: 30px;
+    background: rgb(255, 115, 0);
+    color: rgb(224, 224, 224);
+    font-weight: bold;
+}
+
+.period {
+    height: 30px;
+    width: 100px;
+    background: white;
+}
+
+.line1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.line2 {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.time {
+    background: rgba(145, 145, 145, 0.89);
+    font-weight: bold;
+}
+
+.timehead {
+    background: rgb(0, 0, 0);
+}
+
+.mon {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    background: white;
+}
+
+.tue {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+}
+
+.wed {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+}
+
+.thu {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+}
+
+.fri {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+}
+
+.prof {
+    font-size: 10px;
+    display: block;
+}
+
+.day {
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.empty {
+    background: rgb(189, 189, 189);
+}
+
+.mes453 {
+    background: rgba(40, 148, 36, 0.651);
+}
+
+.eec432 {
+    background: rgba(255, 120, 120, 0.637);
+}
+
+.yyo44 {
+    background: rgba(68, 0, 255, 0.527);
+}
+
+.mec401 {
+    background: rgba(245, 11, 225, 0.445);
+}
+
+.mec402 {
+    background: rgba(245, 171, 11, 0.589);
+}
+
+.mec403 {
+    background: rgba(255, 255, 0, 0.562);
+}
+
+.mes452 {
+    background: rgb(17, 239, 255);
+}
+
+.mes451 {
+    background: rgb(134, 5, 255);
+}
+
+.mec481 {
+    background: rgb(255, 113, 113);
+}
+
+.ees482 {
+    background: rgb(104, 255, 112);
+}
